@@ -9,11 +9,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Aasmi </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            from <span className="purple"> Bengaluru (Karnataka), India.</span>
             <br />
             I am currently employed as a team-lead (software developer) at Mograsys Techbologies .
             <br />
-            I have completed Integrated M.E in Structural Engineering.
+            I have completed Integrated Masters in Engineering and graduated in the year 2022.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
