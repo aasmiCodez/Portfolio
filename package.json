@@ -2,9 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
-    "preinstall": "npx npm@10 install --legacy-peer-deps",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -12,7 +10,7 @@
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.4",
+    "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
     "bootstrap": "^5.1.3",
