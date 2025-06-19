@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import n8n from "../../Assets/Projects/n8n.png";
+import parentPortal from "../../Assets/Projects/parentPortal.png";
+import mograConnect from "../../Assets/Projects/mograConnect.jpg";
+import mograHub from "../../Assets/Projects/mograHub.jpg";
+import HRportal from "../../Assets/Projects/HRportal.png"
 
 function Projects() {
   return (
@@ -23,68 +22,41 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              imgPath={mograHub}
+              title="MograHub"
+              description="This app is crafted to keep parents effortlessly connected to their child’s educational journey. With a simple and intuitive interface, it allows parents to track attendance in real-time, view marks and monitor academic progress with ease, and stay up-to-date on school events and important announcements. Everything you need to stay informed and involved in your child’s school life is just a few taps away."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              imgPath={mograConnect}
+              title="MograConnect"
+              description="Developed an intuitive attendance tracking and grade entry system tailored for educators, resulting in a 40% improvement in user engagement within the first semester. The app was successfully launched after clearing multiple rounds of App Store and Play Store reviews. A highly responsive user interface was designed to ensure seamless interactions across devices, while automated data synchronization significantly reduced manual effort by 35%."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              imgPath={parentPortal}
+              title="Parent Portal Web"
+              description="Developed a web-based version of MograHub to bridge communication gaps between stakeholders in the education system. The platform integrates real-time attendance tracking, instant notifications, and report viewing, providing a comprehensive view of student progress. Secured authentication and role-based access controls were implemented to ensure data privacy. A centralized dashboard was designed to streamline monitoring and management, while a responsive UI guaranteed seamless accessibility across all devices."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              imgPath={n8n}
+              title="n8n Workflows"
+              description="Designed and implemented custom n8n workflows to automate data processing and streamline backend operations. These workflows efficiently capture, transform, and store data into SQL tables, reducing manual interventions and ensuring consistent data accuracy. By leveraging n8n’s low-code capabilities, complex integrations between APIs and databases were achieved with ease, enabling faster deployment and scalable solutions for business-critical processes."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              imgPath={HRportal}
+              title="MograHR"
+              description="Built an integrated HR portal for efficiently tracking and shortlisting job applications, along with scheduling interviews and managing candidate communications. Simultaneously developed a user-friendly applicant portal that allows candidates to easily apply for positions, upload documents, and track their application status in real-time. This end-to-end solution streamlined the recruitment process, improved transparency, and enhanced the overall user experience for both HR teams and applicants."
             />
           </Col>
         </Row>
